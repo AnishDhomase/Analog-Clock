@@ -6,3 +6,99 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #40BA84;
+    background-image: linear-gradient(135deg,#6FCEA0,#40BA84);
+    
+}
+.innerline{
+    position: absolute;
+    left: 49.7%;
+
+    width: 0.6%;
+    height: 100%;
+    background-color: #eaf3f0;
+}
+.innerline.two{
+    transform: rotate(30deg);
+}
+.innerline.three{
+    transform: rotate(60deg);
+   
+}
+.innerline.four{
+    transform: rotate(90deg);
+}
+.innerline.five{
+    transform: rotate(120deg);
+}
+.innerline.six{
+    transform: rotate(150deg);
+}
+.circle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 8px double #f8fbfa;
+    box-shadow: 3px 3px 10px 2px rgb(87, 143, 156);
+}
+.sec{
+    position: absolute;
+    top: 2%;
+    left: 49.5%;
+    transform-origin: bottom center;
+
+    width: 1%;
+    height: 48%;
+    background-color: #77F7C3;
+}
+.min{
+    position: absolute;
+    top: 2%;
+    left: 49.2%;
+    transform-origin: bottom center;
+
+    width: 1.6%;
+    height: 48%;
+    background-color: #69a88e;
+}
+.hr{
+    position: absolute;
+    top: 11%;
+    left: 49%;
+    transform-origin: bottom center;
+
+    width: 2%;
+    height: 39%;
+    background-color: #217854;
+    
+}
+.clamp{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    height: 4%;
+    width: 4%;
+    background-color: red;
+    background-color: gold;
+    border-radius: 50%;
+}
+.date{
+    text-align: center;
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0d4a31e4;
+}
