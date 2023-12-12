@@ -51,6 +51,8 @@ body{
     background-color: white;
     border: 8px double #f8fbfa;
     box-shadow: 3px 3px 10px 2px rgb(87, 143, 156);
+    animation: fade 2s ease;
+
 }
 .sec{
     position: absolute;
@@ -101,4 +103,16 @@ body{
     font-size: 20px;
     font-weight: 500;
     color: #0d4a31e4;
+    animation: fade 1s ease;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

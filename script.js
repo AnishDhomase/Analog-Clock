@@ -4,6 +4,8 @@ const minHand = document.querySelector(".min");
 const hrHand = document.querySelector(".hr");
 const dateField = document.querySelector(".date");
 
+
+
 setInterval(function(){
     let timeNow = new Date();
     let seconds = timeNow.getSeconds();
